@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import "./App.css";
 
@@ -105,6 +104,7 @@ class PokemonCards extends React.Component {
             <img
               src={this.state.pokemons2.sprites.front_default}
               className="h-52 object-cover my-1.5"
+              alt={this.props.pokemones.name}
             ></img>
             <div className="flex flex-row flex-wrap justify-around my-1.5">
               {this.state.pokemons2.types.map((item, index) => {
