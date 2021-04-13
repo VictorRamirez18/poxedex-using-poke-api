@@ -1,21 +1,25 @@
 .App {
-  background-color: #2122ff;
+  background-color: lavender;
 }
 .header-bar {
   font-family: "Lucida Bright";
-  background-color: #ffd622;
+  background-color: #f9211b;
 }
 .contenedor {
   height: auto;
   font-family: "Verdana";
-  background-color: #0001b3;
+  background-color: lavender;
   min-height: 100vh;
 }
 .card {
-  /* width: 15%; */
-  background-color: #dcdcdc;
+  background-color: #02ad9f;
   -webkit-box-shadow: 0px 1px 15px -4px #000000;
   box-shadow: 0px 1px 15px -4px #000000;
+}
+.tipos {
+  font-size: 12px;
+  -webkit-box-shadow: 0px 0px 15px -1px #ffffff;
+  box-shadow: 0px 0px 15px -1px #ffffff;
 }
 #ground {
   background-color: #8b4513;
@@ -34,7 +38,7 @@
   color: black;
 }
 #flying {
-  background-color: #e6e6fa;
+  background-color: #66cdaa;
   color: black;
 }
 #poison {
